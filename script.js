@@ -206,12 +206,3 @@ btncopyEl.addEventListener("click", function() {
     document.execCommand("copy");
     alert("Copied your new password");
 });
-
-//Create a warning for if prompt about only inputing numbers
-
-// if (charLength === "" || charLength <= 7 || charLength >= 129) {
-//     for (x = 0; x < 3; x++) {
-//         alert("Please enter a vaild number that is between 8 and 128.");
-//         var charLength = prompt("How many characters would you like your new password to be? Pick a number between 8 and 128.");
-//     }
-// }
